@@ -9,8 +9,18 @@
     <Grid>
         <Button x:Name="Load_Image" Content="Load" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="408,401,0,0" Click="button_Click"/>
         <Image x:Name="image1" HorizontalAlignment="Left" Height="312" Margin="479,10,0,0" VerticalAlignment="Top" Width="227"/>
-        <Label x:Name="Label" Content="Name" HorizontalAlignment="Left" Margin="51,68,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.043,0.057"/>
-        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="23" Margin="98,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="Label" Content="Last Name" HorizontalAlignment="Left" Margin="26,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.043,0.057"/>
+        <TextBox x:Name="lastNameTextBox" HorizontalAlignment="Left" Height="22" Margin="98,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label x:Name="label" Content="City" HorizontalAlignment="Left" Margin="26,167,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="cityTextBox" HorizontalAlignment="Left" Height="23" Margin="98,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label x:Name="label1" Content="First Name" HorizontalAlignment="Left" Margin="26,103,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="firstNameTextBox" HorizontalAlignment="Left" Height="23" Margin="98,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label x:Name="label2" Content="Address" HorizontalAlignment="Left" Margin="26,135,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="addressTextBox" HorizontalAlignment="Left" Height="23" Margin="98,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label x:Name="label3" Content="State" HorizontalAlignment="Left" Margin="26,199,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="stateTextBox" HorizontalAlignment="Left" Height="23" Margin="98,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
+        <Label x:Name="label4" Content="Zip Code" HorizontalAlignment="Left" Margin="26,231,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="zipCodeTextBox" HorizontalAlignment="Left" Height="23" Margin="98,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239"/>
 
     </Grid>
 </Window>
